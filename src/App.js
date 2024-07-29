@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ProjectProposal from "./components/ProjectProposal";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ return (
+  <div className="min-h-screen bg-black text-white">
+   <ProjectProposal />
+  </div>
+ );
 }
 
 export default App;
